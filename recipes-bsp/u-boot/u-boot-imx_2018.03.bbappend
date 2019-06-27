@@ -8,3 +8,6 @@ SRC_URI_coral-dev = "\
 SRCREV_coral-dev = "49f436811a16f43dfbc1e84e0f836bbf79be8b47"
 
 DEPENDS_coral-dev += "cora-boot-script"
+DEPENDS_coral-dev += "dtc-145-native"
+
+EXTRA_OEMAKE += "DTC=dtc-145"
